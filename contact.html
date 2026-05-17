@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+	<title>Contact Us</title>
+</head>
+<body>
+<div id="box">
+<nav id="navbar">
+    <a href="index.html" class="nav-link">Home &vert;</a>
+    
+    <div class="dropdown">
+        <span class="nav-link">New Release &vert;</span>
+        <div class="dropdown-content">
+            <a href="new.html">Latest Movies</a>
+            </div>
+    </div>
+
+    <a href="about/about.html" class="nav-link">About Us &vert;</a>
+    <a href="movies.html" class="nav-link">Movies &vert;</a>
+    <a href="contact.html" class="nav-link">Contact &vert;</a>
+    <a href="https://www.google.com" class="nav-link">Google</a>
+</nav>
+</div>
+
+    <h1>
+    	Contact Us
+    </h1>
+    <form action="#" method="POST">
+    <label>Full name: </label> <br>
+    <input type="text" name="fullname" required> <br><br>
+
+    <label>Email: </label> <br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Gender: </label> <br>
+    <input type="radio" name="Gender" value="male" required> Male
+    <input type="radio" name="Gender" value="female" required> Female <br><br><br>
+
+    <label>Favorite Topic: </label> <br>
+    <select name="choice">
+
+    	<option>
+    		HTML
+    	</option>
+
+    	<option>
+    		CSS
+    	</option>
+
+    	<option>
+    		Java Script
+    	</option>
+
+    </select> <br><br>
+    <label>Your Message: </label> <br>
+    <textarea name="message" rows="5" cols="30"></textarea> <br><br>
+
+    <input type="checkbox" name="terms" required>I agree to the terms <br><br>
+
+    <input type="submit" value="Send To Me">
+    <input type="reset" value="Clear Everything">
+    </form>
+
+
+</body>
+</html>
